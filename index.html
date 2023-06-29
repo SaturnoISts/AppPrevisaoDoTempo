@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./assets/images/877-8773864_image-set-png-256x256-px-weather-icon-weather.png" type="image/x-icon">
+    <script src="scripts.js"></script>
+    
+    <title>App Previsão do Tempo</title>
+    
+</head>
+
+<body>
+    <div class="box-maior">
+        <input class="input-cidade" type="text" placeholder="Digite a cidade" />
+        <button class="botao-busca" onclick="CliqueBotao()">
+            <img class="img-lupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="icone-lupa" />
+        </button>
+        <div class="box-media">
+            <h2 class="titulo-cidade">Tempo em Aracaju</h2>
+            <p class="temperatura">27°C</p>
+            <div class="box-menor">
+                <img class="icone-previsao" src="https://openweathermap.org/img/wn/02n.png" alt="Imagem previsão" />
+                <p class="previsao-texto">Parcialmente Ensolarado</p>
+            </div>
+                <p class="umidade">Umidade Relativa Do Ar: 85%</p>
+            
+        </div>
+    </div>
+</body>
+
+</html>

@@ -22,3 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O PrevTempo é um site feito para buscar informações de clima de várias cidades do mundo inteiro, contando com o uso da API da OpenWeather.
+
+## 🔐 Licença
+
+Este projeto está sob licença MIT.
